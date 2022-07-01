@@ -36,3 +36,126 @@
     transform: rotate(360deg);
   }
 }
+
+.bg-color{
+  background-color: rgb(28, 104, 134) ;
+}
+
+.nav-bar{
+  height: 10vh;
+  background-color: rgb(28, 104, 134);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-bar .active{
+  color: orange;
+  font-size: 22px;
+}
+
+.navlink{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.navlink:hover{
+  color: goldenrod;
+}
+
+/* banner section */
+
+.banner{
+  background-color: #bce3ee;
+}
+.banner span{
+  color: goldenrod;
+}
+.banner .card-text{
+  color: rgb(34, 34, 34);
+  font-weight: 500;
+}
+
+.banner button{
+  background-color: rgb(28, 104, 134);
+  color: white;
+}
+.seeDatails{
+  background-color: rgb(28, 104, 134);
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+.seeDatails:hover{
+  background-color: goldenrod;
+  color: white;
+}
+.banner button:hover{
+  background-color: goldenrod;
+  transition: 0.5s;
+  color: white;
+}
+
+.service-datails{
+  background-color: white;
+}
+
+.service-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+
+/* footersection */
+
+.footer{
+  background-color: rgb(28, 104, 134);
+}
+.footer1 p{
+
+}
+.footer a{
+  text-decoration: none;
+  color: goldenrod;
+  margin: 0;
+  font-weight: 500;
+}
+
+.footer .icon i{
+  color: white;
+}
+.footer .icon i:hover{
+  color: goldenrod;
+}
+
+/* about section */
+
+
+.about-top button{
+  background-color: rgb(28, 104, 134);
+  color: white;
+  border: 0;
+
+}
+
+.about-top p{
+  font-weight: 500;
+  color: rgb(53, 53, 53);
+}
+.about-botton{
+  background-color: rgb(185, 255, 232);
+}
+.about-botton p{
+  color: rgb(59, 59, 59);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* services-section */
+.services-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.services-grid .card{
+  background-color: #eaf4f7;
+}
